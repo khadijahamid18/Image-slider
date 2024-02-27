@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(Lizard.jpg);
+}
+
+#box {
+    width: 60%;
+    min-height: 80vh;
+    background: url(img/1.jpeg) no-repeat center/cover;
+    border: 0.5rem solid #1a242c;
+    position: relative;
+    border-radius: 0.5rem;
+    margin: 4rem auto;
+    transition: 0.5 ease-in-out;
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.6);
+}
+
+/* translate(x, y) */
+#btn-left {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(24, 67, 70);
+    border: 0.2rem solid rgb(1, 122, 133);
+    /* font-size: 1.5rem; */
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#btn-right {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(50%, -50%);
+    background-color: rgb(24, 67, 70);
+    border: 0.2rem solid rgb(1, 122, 133);
+    /* font-size: 1.5rem; */
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
